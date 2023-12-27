@@ -30,7 +30,7 @@ This initiative is a collaboration between Vanderbilt University, The Learning A
 │   ├── train_prompts.csv
 │   └── train_v2_drcat_02.csv
 ├── demo.py
-├── llm_infer.py
+├── download.sh
 ├── models
 │   ├── glove.6B.200d.txt
 │   ├── mistral
@@ -48,17 +48,19 @@ This initiative is a collaboration between Vanderbilt University, The Learning A
 │   ├── sequencepiece_glove_model.pkl
 │   ├── sequencepiece_tokenizer.pkl
 │   └── tfidf_vectorizer.pkl
-├── train_bert.py
+├── README.md
 ├── requirements.txt
-├── train_sentencepiece-constructions.py
-└── train_sequencePieceTokenizer_gloVe.py
+├── train_bert.py
+├── train_glove.py
+├── train_llm.py
+└── train_tfidf.py
 ```
 
 ## Models Trained
 We have trained three distinct model types for this competition:
-- Traditional Machine Learning Models
-- Transformer Pretrained Models
-- Large Language Models
+- Traditional Machine Learning Models - train_tfidf.py, train_glove.py
+- Transformer Pretrained Models - train_bert.py
+- Large Language Models - train_llm.py
 
 ## How to Run
 
@@ -81,3 +83,8 @@ pip install -r requirements.txt
 ---
 
 After running `demo.py`, you should be able to interact with the model through a web interface, facilitating an intuitive understanding of the project's achievements.
+## References
+
+- [LLM - Detect AI Generated Text - Kaggle](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/overview)
+- [AI or Not AI? Delving Into Essays with EDA - Kaggle](https://www.kaggle.com/code/pamin2222/ai-or-not-ai-delving-into-essays-with-eda)
+- [DAIGT V2 train dataset - Kaggle](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset)

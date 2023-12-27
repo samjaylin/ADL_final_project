@@ -12,14 +12,7 @@ from transformers import TrainingArguments, Trainer
 from scipy.special import expit as sigmoid
 import numpy as np
 
-#TARGET_MODEL = "/kaggle/input/mistral-7b-v0-1/Mistral-7B-v0.1"
-#TARGET_MODEL = "/kaggle/input/llama-2/pytorch/7b-hf/1"
-
 TARGET_MODEL = "mistralai/Mistral-7B-v0.1"
-
-
-# %% Directory settings
-
 # ====================================================
 # Directory settings
 # ====================================================
