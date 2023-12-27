@@ -62,6 +62,17 @@ We have trained three distinct model types for this competition:
 - Transformer Pretrained Models - train_bert.py
 - Large Language Models - train_llm.py
 
+
+
+## Dependencies
+
+Install the necessary Python packages using the following command:
+
+```bash
+./download.sh
+pip install -r requirements.txt
+```
+
 ## How to Run
 
 To run the web demo, execute the following command:
@@ -71,15 +82,6 @@ python demo.py
 ```
 
 This command will launch a Gradio web interface to showcase the models' capabilities in detecting AI-generated text.
-
-## Dependencies
-
-Install the necessary Python packages using the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 After running `demo.py`, you should be able to interact with the model through a web interface, facilitating an intuitive understanding of the project's achievements.
